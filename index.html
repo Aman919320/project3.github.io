@@ -3,36 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic Tac Toe Project</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Container for content */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Project name heading */
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            color: #fff;
+            background-color: #6c63ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            background-color: #fff;
+            margin: 15px 0;
+            padding: 20px;
+            border-left: 5px solid #6c63ff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button styling */
+        button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: #d9534f;
+        }
+
+        /* Anchor inside button */
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 14px;
+                padding: 15px;
+            }
+
+            button {
+                width: 150px;
+                padding: 12px;
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <p>
-        Description:
-A GUI-based Tic Tac Toe game for two players. It features an interactive board, winner detection with highlighting, and a reset option to play again.
-</p>
-<p>
-    Requirements:
-    Python 3.x
-    Libraries:
-    tkinter (built-in)
-</p>
-<p>
-    Instructions:
-Setup:
-
-Save the provided code as tic_tac_toe.py.
-Run the script using python tic_tac_toe.py.
-Gameplay:
-
-Player X and Player O take turns by clicking the grid buttons.
-The game checks for a winner or draw after each move.
-Winning rows, columns, or diagonals are highlighted.
-Click "Reset Game" to start a new round.
-Enhancements:
-
-Add a single-player mode with an AI opponent.
-Allow players to customize symbols (e.g., emojis).
-</p>
-<button><a href="https://github.com/Aman919320/project3.github.io">Project 3 Link</a></button>
+    <div class="container">
+        <h1>Tic Tac Toe Game</h1>
+        <p>
+            <strong>Description:</strong><br>
+            A GUI-based Tic Tac Toe game for two players. It features an interactive board, winner detection with highlighting, and a reset option to play again.
+        </p>
+        <p>
+            <strong>Requirements:</strong><br>
+            Python 3.x<br>
+            Libraries:<br>
+            tkinter (built-in)
+        </p>
+        <p>
+            <strong>Instructions:</strong><br>
+            <strong>Setup:</strong><br>
+            Save the provided code as <code>tic_tac_toe.py</code>.<br>
+            Run the script using <code>python tic_tac_toe.py</code>.<br>
+            <br>
+            <strong>Gameplay:</strong><br>
+            - Player X and Player O take turns by clicking the grid buttons.<br>
+            - The game checks for a winner or draw after each move.<br>
+            - Winning rows, columns, or diagonals are highlighted.<br>
+            - Click "Reset Game" to start a new round.<br>
+            <br>
+            <strong>Enhancements:</strong><br>
+            - Add a single-player mode with an AI opponent.<br>
+            - Allow players to customize symbols (e.g., emojis).<br>
+        </p>
+        <button><a href="https://github.com/Aman919320/project3.github.io">Project 3 Link</a></button>
+    </div>
 </body>
 </html>
